@@ -15,13 +15,13 @@ class FeedbackOptions extends Component {
         </h2>
         <div>
           {options.map(option => (
-            <button
+            <Button
               key={option}
               variant="outline-success"
               onClick={() => onLeaveFeedback(option)}
             >
               {option}
-            </button>
+            </Button>
           ))}
         </div>
       </section>
