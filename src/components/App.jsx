@@ -1,8 +1,9 @@
-import Statistics from './statistics/Statistics';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import FeedbackOptions from './feedback options/FeedbackOptions';
+import React, { Component } from 'react';
+import Statistics from './statistics/Statistics';
 import Section from './section/Section';
 import Notification from './notification/Notification';
-import React, { Component } from 'react';
 
 class App extends Component {
   state = {

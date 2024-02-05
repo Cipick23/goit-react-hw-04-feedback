@@ -1,7 +1,7 @@
 // Notification.js
 import React, { Component } from 'react';
-import Alert from 'react-bootstrap/Alert';
 import PropTypes from 'prop-types';
+import { Alert } from 'react-bootstrap';
 
 class Notification extends Component {
   render() {
